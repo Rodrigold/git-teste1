@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "meu primeiro programa com nodejs",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": { 
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Rodrigold/git-teste1/issues"
   },
-  "homepage": "https://github.com/Rodrigold/git-teste1#readme"
+  "homepage": "https://github.com/Rodrigold/git-teste1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
